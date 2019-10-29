@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="图片在线转换_files">
+<meta name="description" content="图片在线转换_files">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="applicable-device" content="pc">
+<meta name="viewport" content="width=1200, maximum-scale=1.0, user-scalable=1">
+<link href="./base64ToImage_files/layout.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./base64ToImage_files/tools.css">
+<script>
+	
+	
+	function async_load(url){ 
+		var s = document.createElement('script'); 
+		s.type = 'text/javascript'; 
+		s.async = true; 
+		s.src = url; 
+		var x = document.getElementsByTagName('script')[0]; 
+		x.parentNode.insertBefore(s, x); 
+	}
+	function aysnc_load_js(url) {
+		if (window.attachEvent) 
+			window.attachEvent('onload', function() {async_load(url)}); 
+		else 
+			window.addEventListener('load', function() {async_load(url)}, false); 
+	}
+
+	function async_do_func(func) {
+		if (window.attachEvent) 
+			window.attachEvent('onload', func); 
+		else 
+			window.addEventListener('load', func, false); 
+	}
+
+    function copyUrl2(){
+      var Url2=document.getElementById("base64_output");
+      var val=Url2.value;
+      if(val==''){
+          alert('没有要复制的内容！');
+          return false;
+      }
+      Url2.select(); // 选择对象
+      document.execCommand("Copy"); // 执行浏览器复制命令
+      alert("已复制好，可贴粘。");
+    }
+
+
+
+</script>
+</head>
+<body>
+<div class="content">
+  <div class="warp">
+    <div class="head4">
+      <div class="Ico_aBox">
+        <h1 class="Ico_aBox_tit">图片转换Base64</h1>
+        <h2 class="Ico_aBox_intro" style="left:220px">在线把图片转换成Base64</h2>
+      </div>
+    </div>
+  </div>
+  <div class="warp">
+    <form enctype="multipart/form-data">
+      <div class="row clearfix w840">
+        <div class="r">
+          <!--<input onclick="copyUrl2()" value="复制" name="res7" class="tools_btn06" type="button">
+          <input onclick="Word.value=&#39;&#39;" value="清空" name="res7" class="tools_btn06" type="button">-->
+        </div>
+        <div class="span" style="width:325px"> <a href="javascript:;" class="input-file">
+          <input accept="image/*" name="upimage" id="upload_file" type="file" value="点击这里选择选择要转换成Base64的图片">
+          &nbsp;点击这里选择选择要转换成Base64的图片 </a> </div>
+        <div class="span" id="update_file_label"></div>
+        <script type="text/javascript">
+						document.getElementById("upload_file").onchange = function () {
+						    document.getElementById("update_file_label").innerHTML = this.value;
+						    gen_base64();
+						};
+					</script> 
+      </div>
+      <div class="row clearfix tc">
+        <textarea id="base64_output" name="Word" style=" width:820px"></textarea>
+      </div>
+      <div class="row clearfix w840">
+        <div class="span">
+          <!--<input value="还原生成的Base64编码为图片：" class="tools_btn02" type="button" onclick="test_base64();">-->
+        </div>
+        <div class="span" style="margin-left:10px">
+          <div class="strong red" id="img_size"> </div>
+        </div>
+      </div>
+      <div class="row alert success w840"> <img id="img_prev" src="" style="max-width:100%;border: 1px solid gray;" data-bd-imgshare-binded="1"> </div>
+    </form>
+    <script type="text/javascript">
+				function $_(id) {
+					return document.getElementById(id);
+				}
+				function gen_base64() {
+					$_('base64_output').value = '';
+					$_('img_size').innerHTML = '';
+					$_('img_prev').src = '';
+					var file = $_('upload_file').files[0];
+					if(!/image\/\w+/.test(file.type)){   
+						alert("请确保文件为图像类型"); 
+						return false; 
+					}
+					r = new FileReader();  //本地预览
+					r.onload = function(){
+						$_('base64_output').value = r.result;
+						$_('img_size').innerHTML = "    图片大小：" + Math.round(r.result.length/1024*1000)/1000 + " KB";
+					}
+					r.readAsDataURL(file);    //Base64
+				}
+				function test_base64() {
+					$_('img_prev').src = '';
+					//$_('img_prev').src = 'data:image/jpeg;base64,'+$_('base64_output').value;
+					document.getElementById('img_prev').setAttribute( 'src', $_('base64_output').value);
+				}
+				window.onload = function() {
+					if ( typeof(FileReader) === 'undefined' ){
+						alert("抱歉，你的浏览器不支持 FileReader，请使用现代浏览器操作！");
+						$_('upload_file').disabled = true;
+					}
+				}
+            </script>
+  </div>
+</div>
+</body>
+</html>

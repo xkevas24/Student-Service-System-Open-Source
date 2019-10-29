@@ -1,0 +1,167 @@
+body { margin:auto 0px;font-size:12px;
+}
+img{ width:48px; height:48px}
+.boild{ font-weight:bold;}
+.cc30{ color:#c30; font-family:Arial;}
+.c390{ color:#390; font-family:Arial;}
+.c4899BE{ color:#4899BE; font-family:Arial;}
+.cf00{ color:#f00; font-family:Arial;}
+tr{cursor:pointer}
+img{ border:solid 0px black}
+a{text-decoration:none; color:Black; font-family:Verdana, Arial, Helvetica, sans-serif,"\5b8b\4f53"; cursor:pointer; }
+.centerimg{ background-image:url(http://static.xixik.com.cn/images/weather.png); width:25px; height:25px;position:relative; left:50%; margin-left:-12px; float:left;}
+#img{ background-image:url(http://static.xixik.com.cn/images/weather.png); width:25px; height:25px; float:left}
+.img{float:left}
+.centertwo{ width:40px; height:22px;position:relative; left:50%; margin-left:-20px; float:left;padding-top:3px;}
+
+#mobile1{width:100%; text-align:center;height:25px; line-height:25px;}
+
+#mobile2{width:auto; text-align:center;height:70px;}
+#mobile2 .wtname{width:50px;float:left; margin-top:20px}
+#mobile2 .wt{width:120px;float:left;margin-top:5px }
+#mobile2 .wt1{ margin-left:10px}
+#mobile2 .wtpic{line-height:25px;height:25px;width:25px;float:left; margin-right:5px}
+#mobile2 .wttemp{line-height:25px;height:25px;width:auto; float:left }
+#mobile2 .wtpath,.wtwt{height:20px; line-height:20px; float:left; width:100%; text-align:center}
+
+#mobile3{width:100%; text-align:center;} 
+#mobile3 .wtwt,#mobile3 .wtwind,#mobile3 .wttemp,#mobile3 .wtname,#mobile3 .wtbg{float:left; width:100%; height:20px; line-height:20px }
+#mobile3 .wtname{ color:#00aa00; font-size:14px; font-weight:bold;}
+#mobile3 .wtwt{ font-weight:bold;height:15px; line-height:15px;}
+#mobile3 .wtwind{ height:15px; line-height:15px;}
+#mobile3 .wttemp{ color:#749900; font-size:14px; font-weight:bold;}
+#mobile3 .wtwt{ font-weight:bold;}
+#mobile3 .wtbg{ background-color:#e4f0f8 }
+
+#mobile4{width:100%; text-align:center;} 
+#mobile4 .wt{width:100%;height:105px}
+#mobile4 .wtwt,#mobile4 .wtwind,#mobile4 .wttemp,#mobile4 .wtname,#mobile4 .wtbg{float:left; width:100%; height:20px; line-height:20px }
+#mobile4 .wtname{ color:#00aa00; font-size:14px; font-weight:bold;height:20px; line-height:20px;}
+#mobile4 .wtwt{ font-weight:bold;height:20px; line-height:20px;}
+#mobile4 .wtpic{ height:25px; line-height:25px; width:100%;}
+#mobile4 .wtwind{ height:15px; line-height:15px;}
+#mobile4 .wttemp{ color:#749900; font-size:14px; font-weight:bold;height:20px; line-height:20px;}
+#mobile4 .wtwt{ font-weight:bold;}
+#mobile4 .wtbg{background-color:#e4f0f8 }
+
+#mobile5{width:100%; text-align:center;height:25px; line-height:25px;} 
+
+#mobile6{width:120px; text-align:center;height:80px; margin-top:5px } 
+#mobile6 .wt,#mobile6 .img{margin:0 auto;float:none;}
+#mobile6 .wtmid{height:22px; padding-top:2px;margin-top:2px; margin-bottom:2px; width:120px;}
+
+#mobile7{text-align:center;height:90px; width:225px;}
+#mobile7 .wtwt3{color:#06c;font-weight:bold}
+#mobile7 .wttemp{font-weight:bold;font-size:12px;}
+#mobile7 .wtbg{float:left; width:70px; height:65px;background-repeat: no-repeat;background-position: 50% 0%;}
+#mobile7 .wtwind{float:left; width:155px;height:65px; line-height:20px; text-align:center;}
+
+#mobile8{width:230px;height:80px;}
+#mobile8 .wtleft{ width:175px; float:left; text-indent:1em}
+#mobile8 .wtname{width:100%;float:left; height:20px; line-height:20px;margin-top:10px; overflow:hidden}
+#mobile8 .wtline{width:100%;float:left; height:20px; line-height:20px; overflow:hidden}
+#mobile8 .wtpic{line-height:50px;height:50px;width:50px;margin-top:15px; float:left}
+
+#mobile9{width:auto; text-align:center;height:70px;}
+#mobile9 .wtleft{ width:70px;float:left;height:70px;}
+#mobile9 .wtname{width:70px;float:left; margin-top:15px; height:20px;}
+#mobile9 .order{width:70px;float:left; margin-top:5px; height:20px;}
+#mobile9 .wt{width:140px;float:left;margin-top:5px }
+#mobile9 .wtpic{line-height:50px;height:50px;width:50px;float:left;}
+#mobile9 .wt1{width:90px; float:left;}
+#mobile9 .wtline{width:100%;float:left; height:18px; line-height:18px}
+
+.mobile10{width:400px;font-size:12px;height:24px;overflow:hidden;}
+.mobile10 ul{list-style-type:none;margin:0;padding:0;}
+.mobile10 ul li{height:25px;line-height:25px;float:left;display:inline;width:100%;}
+.mobile10 .wtdate,.mobile10 .wtname,.mobile10 .wtwt,.mobile10 .wttemp{float:left; height:25px; line-height:25px;width:auto }
+.mobile10 .wtname{ margin-right:5px;}
+.mobile10 .wtwt{ margin-left:5px; }
+.mobile10 .wttemp{ margin-left:5px;}
+
+#mobile12{width:auto;height:60px;overflow:hidden;}
+#mobile12 .wtleft{ width:75px;float:left;}
+#mobile12 .wtname{width:100%;float:left; margin-top:8px; height:20px;}
+#mobile12 .wtname a .ico{width:15px;background:url("../images/edit.png") no-repeat scroll right 4px transparent;display:inline-block;height:15px;}
+#mobile12 .wtname a:hover .ico{background:url("../images/edit.png") no-repeat scroll right -33px transparent;}
+#mobile12 .order{width:100%;float:left; margin-top:3px; height:20px;}
+#mobile12 .wt{width:112px;float:left;margin-top:5px }
+#mobile12 .wtpic{line-height:48px;height:48px;width:48px;float:left;}
+#mobile12 .wt1{width:64px; float:left;}
+#mobile12 .wtline{width:100%;float:left; height:18px; line-height:18px;margin-top:3px;}
+
+#mobile13{width:auto;height:70px;text-align:center;overflow:hidden;}
+#mobile13 .mleft{width:100px;float:left;}
+#mobile13 .mright{width:auto;float:left;}
+#mobile13 .wtname{width:100px;float:left; margin-top:15px}
+#mobile13 .wtname a{font-weight:bold;font-size:14px;}
+#mobile13 .order{width:100px;float:left; margin-top:10px; height:20px;}
+#mobile13 .wt{float:left;margin-top:5px;width:110px;}
+#mobile13 .wtpic{line-height:25px;height:25px;float:left;width:100%;}
+#mobile13 .wtpath{height:20px; line-height:20px; float:left; width:100%;}
+#mobile13 a.wea_more{background: url("../images/wea_arrow.gif") no-repeat scroll 0 30px transparent;float: right;height: 65px;margin: 0 2px 0 0;width: 11px;}
+#mobile13 .img{margin:0 5px;}
+
+#mobile19{width:690px;height:105px;text-align:center;overflow:hidden;}
+#mobile19 .mleft{width:70px;float:left;}
+#mobile19 .mright{width:auto;float:left;}
+#mobile19 .wtname{width:70px;float:left; margin-top:20px}
+#mobile19 .wtname a{font-weight:bold;font-size:15px;}
+#mobile19 .order{width:70px;float:left; margin-top:7px; height:20px;}
+#mobile19 .wt{float:left;width:90px;}
+#mobile19 .wt2{float:left;margin-top:1px;width:145px;}
+#mobile19 .wtpic{line-height:25px;height:20px;float:left;width:100%;}
+#mobile19 .wtpath{height:18px; line-height:18px; float:left; width:100%;}
+#mobile19 .wtpath,.wtwt{height:18px; line-height:18px; float:left; width:100%; text-align:center;overflow: hidden;}
+#mobile19 a.wea_more{background: url("../images/wea_arrow.gif") no-repeat scroll 0 30px transparent;float: right;height: 120px;margin: 25px 2px 0 0;width: 11px;}
+#mobile19 .img{margin:0 22px;}
+#mobile19 .day{ padding-right:5px;}
+#mobile19 .red{ color:#f00;}
+#mobile19 .blue{ color:#06c;}
+
+
+#mobile22{width:960px;height:120px;text-align:center;overflow:hidden;}
+#mobile22 .mleft{width:100px;float:left;}
+#mobile22 .mright{width:auto;float:left;}
+#mobile22 .wtname{width:100px;float:left; margin-top:20px}
+#mobile22 .wtname a{font-weight:bold;font-size:15px;}
+#mobile22 .order{width:100px;float:left; margin-top:7px; height:20px;}
+#mobile22 .wt{float:left;width:120px;}
+#mobile22 .wtpic{line-height:25px;height:25px;float:left;width:100%;}
+#mobile22 .wtpath{height:20px; line-height:20px; float:left; width:100%;}
+#mobile22 .wtpath,.wtwt{height:20px; line-height:20px; float:left; width:100%; text-align:center;overflow: hidden;}
+#mobile22 a.wea_more{background: url("../images/wea_arrow.gif") no-repeat scroll 0 30px transparent;float: right;height: 120px;margin: 25px 2px 0 0;width: 11px;}
+#mobile22 .img{margin:3px 37px;}
+#mobile22 .day{ padding-right:5px;}
+#mobile22 .red{ color:#f00;}
+#mobile22 .blue{ color:#06c;}
+
+
+
+#mobile23{width:480px; text-align:center;height:60px; color:#00880e;}
+#mobile23 a{color:#00880e;}
+#mobile23 .wtleft{ width:70px;float:left;height:60px;}
+#mobile23 .wtname{width:70px;float:left; margin-top:15px; height:20px;}
+#mobile23 .order{width:70px;float:left; margin-top:5px; height:20px;}
+#mobile23 .wt{width:130px;float:left;margin-top:5px }
+#mobile23 .wtpic{line-height:50px;height:50px;width:50px;float:left;}
+#mobile23 .wt1{width:80px; float:left; text-align:left;}
+#mobile23 .wtline{width:100%;float:left; height:18px; line-height:18px;overflow: hidden;}
+
+#mobile24{width:auto; text-align:center;height:70px;}
+#mobile24 .wtleft{ width:70px;float:left;height:70px;}
+#mobile24 .wtname{width:70px;float:left; margin-top:15px; height:20px;}
+#mobile24 .order{width:70px;float:left; margin-top:5px; height:20px;}
+#mobile24 .wt{width:125px;float:left;margin-top:5px }
+#mobile24 .wtpic{line-height:50px;height:50px;width:50px;float:left;}
+#mobile24 .wt1{width:75px; float:left;}
+#mobile24 .wtline{width:100%;float:left; height:18px; line-height:18px;overflow: hidden;}
+
+
+.mobile25{width:400px;font-size:12px;height:15px;overflow:hidden;}
+.mobile25 ul{list-style-type:none;margin:0;padding:0;}
+.mobile25 ul li{height:15px;line-height:15px;float:left;display:inline;width:100%;}
+.mobile25 .wtdate,.mobile25 .wtname,.mobile25 .wtwt,.mobile25 .wttemp{float:left; height:15px; line-height:15px;width:auto }
+.mobile25 .wtname{ margin-right:5px;}
+.mobile25 .wtwt{ margin-left:5px; }
+.mobile25 .wttemp{ margin-left:5px;}

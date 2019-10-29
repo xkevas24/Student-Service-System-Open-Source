@@ -1,0 +1,191 @@
+/*---------------------------------
+Site: 
+nameAuthor:yinana
+Updated:2015/11/23
+Updated by:yinana
+
+COLORS
+deep gray:#333/gray:#dcdcdc/text:#515151/bg dray:#f4f4f4/oragne:#ff3c00/blue:#00a0e9/H1, H2, H3:#609b01, H5, H6:#000
+---------------------------------*/
+
+/*公共部分*/
+*{ margin:0; padding:0;}
+body{ font-size:16px; font-family:microsoft yahei,Verdana,Tahoma, Arial, Helvetica, sans-serif; padding:0; margin:0; color:#333; line-height:22px; position:relative}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#F60}
+img{ border:0; display: block;}
+ul,li{ list-style:none}
+.clear{ clear:both; height: 1px; font-size: 1px; overflow: hidden;}
+.l{ float:left}
+.r{ float:right}
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+.mb10{ margin-bottom:10px;}
+.mb30{ margin-bottom:30px;}
+.mb50{ margin-bottom:50px;}
+.mr20{ margin-right:20px;}
+.pb10{ padding-bottom: 10px;}
+.pb15{ padding-bottom: 15px;}
+.pb20{ padding-bottom: 20px;}
+.pt10{ padding-top: 10px;}
+.pr30{ padding-right: 30px;}
+.nop{ padding-right: 0 !important; margin-right: 0 !important;}
+.clearfix:after,.head:after,.content:after,.warp:after{ clear:both; content:","; display:block; height:0; overflow:hidden; visibility:hidden}
+* html .clearfix { zoom: 1; } /* IE6 */ 
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */ 
+.warp{ width:1200px; margin:0 auto}
+.w340{ width: 340px;}
+.w440{ width: 440px;}
+.w280{ width: 280px;}
+.w640{ width: 640px;}
+.w840{ width: 840px;}
+.w300{ width: 300px;}
+h1,h2,h3,h4{ font-weight: normal;}
+.more a{ color: #acacac;}
+.bgblue{ background: #00a0e9 !important;}
+.red{ color: red !important;}
+.dashline{ background: url(../images/line_dashed.gif) repeat-x bottom;}
+.bline{ border-bottom: 1px solid #e2e2e2;}
+.rline{ border-right: 1px solid #e2e2e2;}
+.ap10 a{ padding-right: 10px;}
+.ap10 a:last-child{ padding-right: 0;}
+.tcenter{ text-align: center;}
+
+/*
+  面包屑导航
+*/
+.navTree{font-size:16px;}
+
+/**/
+.tophead{ line-height: 36px; height: 36px; background: #f4f4f4; font-size:14px}
+.tophead .l { color: #dcdcdc;} 
+.tophead .l a{ padding:0 8px; }
+.head{ width:1200px; margin:0 auto; }
+.head .logo{ float:left; width:210px; background:url(../images/logo.png) no-repeat left center;}
+.head .logo a{ width:210px; height:90px; display:block}
+.search{ width:300px; height:40px; margin-top:25px; border: 1px solid #ddd;}
+.search .search-button{ float:right; width:40px; height:40px; background: url(../images/search_btn.png) no-repeat center; border:none; text-indent:-9999px; cursor:pointer; overflow:hidden}
+.search .search-text{ border:0; float:left; width:210px; height:30px; line-height:30px; margin:5px 10px; display:inline;}
+
+.nav{ background: #363636; height: 48px; line-height: 48px;}
+.nav ul{ font-size: 18px; color: #fff;}
+.nav ul a{ color: #fff;}
+.nav ul li{ float: left; margin: 0 3px;}
+.nav ul li a{ display: block; height: 48px;padding: 0 20px; text-align: center; }
+.nav ul li a:hover{ background:#ff3c00}
+.nav ul li.on{ background: #ff3c00;}
+
+/*gg*/
+.gg1200,.gg640,.gg300,.gg840{ width: 100%; text-align: center; overflow: hidden; }
+.gg1200 img,.gg640 img,.gg300 img,.gg840 img{ margin:0 auto}
+
+
+/*盒子*/
+.borderbox{ border: 1px solid #ebebeb;}
+.hd{ width: 100%;}
+
+/*标题*/
+.title01{ line-height: 40px;}
+.title02{ line-height: 20px; margin: 13px 0; border-left: 4px solid #ff3c00; padding-left: 5px;}
+.title03{ border-bottom: 1px solid #e2e2e2; line-height: 44px; height: 44px;}
+.title01 h2{ font-size:20px}
+.title03 h3,.title03 h2{ border-bottom: 2px solid #ff3c00; display: block; float: left; font-size: 20px; color: #666; height: 43px;}
+
+/*文字列表*/
+.tlist01 dl{ margin-bottom: 10px;font-size: 13px; width: 100%; float: left; height:44px; overflow:hidden}
+.tlist01 dl dt{ width: 40px; height: 35px; background: #ff3c00; color: #fff; text-align: center; line-height: 16px; padding: 5px 2px; float: left; font-size:14px }
+.tlist01 dl dd{ float: left; margin-left: 10px; line-height: 22px; height: 22px; width: 69px; overflow: hidden; text-align:center}
+.tlist02 {float: left;padding: 0;}
+.tlist02 h2{ font-size: 18px; line-height: 48px; height: 48px; overflow: hidden; text-align:center}
+.tlist02 h2 a{  color: #00a0e9;}
+.tlist02 li { background: url(../images/li_black.gif) no-repeat left 15px; height: 32px; line-height: 32px; overflow: hidden; padding-left: 10px; }
+.tlist02 li span{ color: #00a0e9; padding-right: 5px;}
+
+.tlist03{ padding: 0;}
+.tlist03 li{ overflow: hidden; height: 28px; line-height: 28px; overflow: hidden; float: left; width: 100%;}
+.tlist03 a{ padding-right: 10px; display: inline-block; line-height: 26px;}
+.tlist04 {float: left;padding: 0;}
+.tlist04 li { height:26px; line-height: 26px; overflow: hidden;}
+
+
+
+.title_tags{ }
+.title_tags a{ padding: 3px 5px; background: #f4f4f4; margin-right: 5px; color: #7b7b7b;}
+.title_tags a:hover{ background: #ff3c00; color: #fff;}
+.tlist_tag{ border: 1px solid #f1f1f1; line-height: 30px; height: 30px; overflow: hidden; text-align:center; font-size:14px}
+.tlist_tag a{ padding: 0 5px; color: #666;}
+.tlist05{ margin-top: 15px;}
+.tlist05 li{ background: url(../images/line_dashed.gif) bottom repeat-x; padding-bottom: 10px; margin-bottom: 8px;}
+.tlist05 li h3{ font-size: 22px; line-height: 40px;}
+.tlist05 li p{ color: #999;}
+
+
+.tlist06 {float: left;padding: 0;}
+.tlist06 h2{ color: #00a0e9; font-size: 16px; line-height: 52px; height: 52px; overflow: hidden;}
+.tlist06 li { float: left;width: 47%; background: url(../images/li_black.gif) no-repeat left 15px; height: 32px; line-height: 32px; overflow: hidden; padding-left: 10px; }
+.tlist06 li span{ color: #00a0e9; padding-right: 5px;}
+.tlist06 li:nth-child(2n){ background:#fff;}
+
+
+
+/*组合列表*/
+.ptlist01{ margin: 20px 0 18px;}
+.ptlist01 .img01{ margin-right: 10px; position: relative; margin-top: 8px; height: 105px; overflow: hidden;}
+.ptlist01 .img01 img{ width: 145px; height: 105px;}
+.ptlist01 .img01 span{ position: absolute; width: 145px; height: 22px; line-height: 22px; background: #000; display: block; bottom: 0; left: 0; color: #fff; text-align: center; overflow: hidden;}
+.ptlist02{ margin: 13px 0 14px;}
+.ptlist02 .img01{ margin-right: 30px; position: relative; margin-top: 8px; height: 177px; overflow: hidden;}
+.ptlist02 .img01 img{ width: 233px; height: 175px; border: 1px solid #e2e2e2;}
+.ptlist02 .img01 span{ position: absolute; width: 235px; height: 22px; line-height: 22px; background: #000; display: block; bottom: 0; left: 0; color: #fff; text-align: center; overflow: hidden;}
+.ptlist02 h3{ font-size: 18px; margin-bottom: 20px; line-height: 30px; height: 30px; overflow: hidden;}
+.ptlist02 p{ height:130px; overflow: hidden; font-size: 12px; line-height: 22px; color: #999;}
+.ptlist02 p span a{ padding: 0 5px; color: #000;}
+.ptlist03{ margin: 10px 0 14px; width: 300px;}
+.ptlist03 .img01{ margin-right: 10px; position: relative; margin-top: 8px; height: 107px; overflow: hidden;}
+.ptlist03 .img01 img{ width: 105px; height: 105px; border: 1px solid #e2e2e2;}
+.ptlist03 h3{ font-size: 14px; margin-bottom: 13px; line-height: 30px; height: 30px; overflow: hidden;}
+.ptlist03 p{ height:72px; overflow: hidden; font-size: 12px; line-height: 18px; color: #999;}
+.ptlist03 p a{ color: #999;}
+.ptlist03 p span a{ padding: 0 5px; color: #000;}
+
+/*图片列表*/
+.plist01{ padding:15px 0 0 0;}
+.plist01 li{ width:195px; text-align:center; float:left; margin:0 27px 15px 0; color:#999;overflow:hidden;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+.plist01 li IMG{ width:193px; height:143px; border: 1px solid #e2e2e2;}
+.plist01 li p{ line-height:30px; color: #515151;}
+.plist01 li:last-child{ margin-right: 0;}
+.plist02{ padding:15px 0 0 0;}
+.plist02 li{ width:150px; text-align:center; float:left; margin:0 13px 15px 0; color:#999;overflow:hidden;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+.plist02 li IMG{ width:148px; height:108px; border: 1px solid #e2e2e2;}
+.plist02 li p{ line-height:30px; color: #515151;}
+.plist02 li:last-child{ margin-right: 0;}
+.plist03{ padding:15px 0 0 0;}
+.plist03 li{ width:144px; text-align:center; float:left; margin:0 10px 15px 0; color:#999;overflow:hidden;white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+.plist03 li IMG{ width:142px; height:103px; border: 1px solid #e2e2e2;}
+.plist03 li p{ line-height:30px; color: #515151;}
+.plist03 li:last-child{ margin-right: 0;}
+
+/*特异性*/
+.borderbox .tlist03{ padding: 0 10px 10px 10px; font-size:14px}
+.w340 .tlist02{ width: 100%;}
+.w340 .ptlist01 .tlist02{ width: 175px; overflow: hidden; height: 113px; overflow: hidden;}
+.w440 .tlist02{ width: 100%;}
+.w440 .ptlist01 .tlist02{ width: 275px; overflow: hidden; height: 113px; overflow: hidden;}
+.w640 .ptlist02 .tlist02{ width: 365px; overflow: hidden; overflow: hidden;}
+.w840 .ptlist02 .tlist02{ width: 365px; overflow: hidden; overflow: hidden;}
+.w440 .ptlist01 .tlist02 li{ line-height:30px; height:30px}
+.bottom_com{ padding: 20px 0;}
+.bottom_com a{ padding: 0 3px;}
+
+/*底部*/
+.footer{ background: #363636; text-align: center; color: #959595; padding: 30px 0; font-size:14px}
+.footer a{ color: #e2e2e2; padding: 0 7px;}
+.icp{ padding-left:23px !important;  background:url(../images/icon_icp.png) no-repeat left center}
+
+/*城市切换*/
+.city-info{ float:left; margin-top:38px;line-height:30px}
+.city-info .city-name{ float:left; margin-right:13px; font-size:30px}
+.city-info .city-toggle{ float:left; font-size:14px; border:1px solid #eee; color:#999; line-height:20px; padding:2px 5px; margin-top:4px}
+.city-info a.city-toggle:hover{ border:1px solid #f79779; color:#f17954}
+/*城市切换*/
+
